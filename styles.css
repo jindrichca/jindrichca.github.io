@@ -1,10 +1,59 @@
+/*
+
+COLOR PALETTE
+
+light - #F5F8F8
+dark - #363442
+main - #89AAB4
+light accent - #EF9E31
+dark accent - #B55F4B
+
+*/
+
+:root {
+	--light: #F5F8F8;
+	--dark: #363442;
+	--main: #89AAB4;
+	--accentl: #EF9E31;
+	--accentd: #B55F4B;
+}
 
 * {
 	padding: 0;
+}
+
+body {
+	background-color: var(--light);
 }
 
 #wrapper {
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+header {
+	height: 200px;
+}
+
+nav {
+	overflow: hidden;
+	background-color: var(--dark);
+}
+
+nav a {
+	float: left;
+	display: block;
+	color: var(--light);
+	text-align: center;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	border-bottom: 3px solid var(--accentd);
+}
+
+nav a.active {
+	border-bottom: 3px solid var(--accentl);
 }
