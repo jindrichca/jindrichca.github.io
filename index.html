@@ -3,73 +3,69 @@
 <head>
 <title>Home Page</title>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
 	<div id="wrapper">
 		<header>
-			<div class="leftcol">
-				<div class="headertext">
-					<h1 class="title">Charlie Jindrich</h1>
-					<h1 class="subtitle">About Me:</h1>
-					<p>
-						Lorem ipsum dolar sit amet.
-					</p>
-				</div>
-			</div>
-			<div class="rightcol">
-				<div class="portrait">
+      
+			  <div class="header" id="portrait">
 					<img src="me.jpg">
 				</div>
-			</div>
+      
+				<div class="header header-text">
+					<h1 class="title" id="header-title">Charlie Jindrich</h1>
+					<p>
+						An electrical engineering student with a wide range of interests and a website to keep track of said interests.
+					</p>
+				</div>
+			
+				<nav class="header">
+          <a href="#home" class="active">Home</a>
+          <a href="#posts">Posts</a>
+          <a href="#projects">Projects</a>
+		    </nav>
+      
+        <div class="header" id="contact">
+          <div class="icon">
+          </div>
+          <div class="icon">
+          </div>
+				</div>
+			
 		</header>
-		<nav>
-			<a href="#home" class="active">Home</a>
-			<a href="#posts">Posts</a>
-			<a href="#projects">Projects</a>
-		</nav>
+	
 		<main>
-			<div class="leftcol">
-				<h1 class="subtitle">Lastest Posts</h1>
-				<div class="card">
-					<h1 class="posttitle">Lorem Ipsum</h1>
-					<p class="postdate">June 12, 2002</p>
-					<div class="postimg">
+			<div class="home-posts">
+        
+				<h1 class="subtitle" id="home-posts-title">Lastest Posts</h1>
+        
+				<div class="card" id="post-1">
+          <div class="post-info">
+            <h1 class="post-title">Lorem Ipsum</h1>
+            <p class="post-date">June 12, 2002</p>
+          </div>
+					<div class="post-img">
 					</div>
-					<p class="blurb">
+					<p class="post-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis nisi vitae ultricies vestibulum. Ut quis velit ullamcorper, dapibus nunc sed, efficitur nibh. Duis rhoncus imperdiet lorem, a efficitur quam varius sed....
 					</p>
 				</div>
-				<div class="card">
-					<h1 class="posttitle">Lorem Ipsum</h1>
-					<p class="postdate">June 12, 2002</p>
-					<div class="postimg">
-					</div>
-					<p class="blurb">
-					</p>
-				</div>
-				<div class="card">
-					<h1 class="posttitle">Lorem Ipsum</h1>
-					<p class="postdate">June 12, 2002</p>
-					<div class="postimg">
-					</div>
-					<p class="blurb">
-					</p>
-				</div>
-			</div>
 			<div class="rightcol">
 				<div class="card" id="featured">
 				</div>
-				<div class="card" id="contact">
-				</div>
 			</div>
+          <footer>
+			  <small><i>Copyright &copy; 2023 Charlie Jindrich</i></small>
+			  <small><a href="charliejindrich@gmail.com">charliejindrich@gmail.com</a></small>
+		  </footer>
 		</main>
-		<footer>
-			<small><i>Copyright &copy; 2023 Charlie Jindrich</i></small>
-			<small><a href="charliejindrich@gmail.com">charliejindrich@gmail.com</a></small>
-		</footer>
+	
 	</div> <!--END OF WRAPPER-->
 </body>
 
 </html>
+
 
