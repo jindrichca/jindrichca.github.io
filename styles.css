@@ -41,14 +41,15 @@ body {
 }
 
 header {
-	background-color: var(--main);
+	background-color: var(--air-superiority-blue);
   height: 100%;
   width: 30%;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  overlfow-x: hidden;
+  overflow-x: hidden;
+
   
   display: flex;
   flex-direction: column;
@@ -60,11 +61,11 @@ header {
 }
 
 #portrait {
-  height: 150px;
-  width: 150px;
-  border-radius: 30px;
+  height: 12em;
+  width: 12em;
+  border-radius: 30%;
   
-  background-color: black;
+  border:0.25em solid var(--dark);
 }
 
 .header-text {
@@ -130,14 +131,23 @@ main {
   border: 2px solid aqua;
 }
 
-#home-posts-title {
+.title-container {
   background-color: var(--light);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height:5em;
   width: 100%;
 }
 
+#home-posts-title {
+}
+
 .card {
+  margin:1em 2em 1em 2em;
+
   background-color: var(--light);
-  corner-radius: 20px;
+  border-radius: 20px;
 
 }
 
