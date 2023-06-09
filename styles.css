@@ -38,12 +38,17 @@ header {
   padding:0.5em;
 }
 
-#logo a {
+.text-link {
   text-decoration: none;
   color: whitesmoke;
 }
 
-#logo a:hover {
+.text-link:visited {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.text-link:hover {
   color: #11a83f;
 }
 
@@ -80,8 +85,6 @@ nav a.active {
 */
 
 main {
-  border:2px solid green;
-
   margin-top:3em;
   margin-bottom: 2em;
 }
@@ -90,8 +93,14 @@ main p {
   line-height: 1.5;
 }
 
+#intro-text {
+
+}
+
 #featured-posts {
   margin-top:3em;
+
+  
 }
 
 #featured-cards {
@@ -101,6 +110,7 @@ main p {
 
 #latest-posts {
   margin-top: 3em;
+
 }
 
 #latest-cards {
