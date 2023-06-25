@@ -176,6 +176,34 @@ main p {
   background-color: red;
 }
 
+/* Article Template */
+
+#post-wrapper {
+  border: 2px solid green;
+
+  width: 70%;
+  margin-right: 20em;
+  margin-left: 5em;
+
+}
+
+#post-header-text {
+  display: flex;
+  align-items: center;
+
+}
+
+#post-title p {
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+#post-heropic {
+  height: 300px;
+  width: 100%;
+  background-color: dodgerblue;
+}
+
 /*
 
 --- FOOTER SECTION ---
